@@ -1,0 +1,25 @@
+{
+  "name": "@lerna4/cli2",
+  "version": "0.0.7",
+  "description": "> TODO: description",
+  "author": "yuzhiqiang <yuzhiqiang2@hxdi.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/cli2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@lerna4/cli2.test.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
